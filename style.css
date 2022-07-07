@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.headaer {
+    background-image: url(./images/donation4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    height: 105vh;
+    margin-top: -45px;
+    background-attachment: fixed;
+}
+
+.header-wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, .2), black);
+    width: 100%;
+    height: 100%;
+}
+
+.header-wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 140px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500 !important;
+}
+
+.header-wrapper p {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+
+}
+
+.my-btn {
+    border: none;
+    background: purple;
+    padding: 20px 50px;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+/* header end */
+
+
+.my-donate {
+    padding: 30px 0px;
+}
+
+.my-donate p {
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    padding: 0px 30px;
+}
+
+.choice-money {
+    display: flex;
+    justify-content: center;
+}
+
+.user-money{
+    margin: 30px;
+    text-align: center;
+}
+
+.user-money h2 {
+    color: #777;
+    font-size: 50px;
+}
+
+.two-hundred {
+    color: #ff5200 !important;
+    border: 2px solid #ff5200;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ff510027;
+    margin-top: 30px !important;
+}
+
+.first-title {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+button {
+    border: none;
+    background: #ff5200;
+    padding: 14px 40px;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 15px;
+    
+}
+
+.custom-money {
+    text-align: center;
+}
+
+.custom-money input {
+    width: 50%;
+    border: 1px solid #ff5200;
+    outline: none;
+    /* box-shadow: 0px 0px 16px rgb(173, 169, 169); */
+    padding:20px 10px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* donate-plan-start */
+
+.our-donate-plan p{
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    padding: 0px 30px;
+}
+
+.donate-item-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-item{
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgb(214, 208, 208);
+}
+
+.donate-item img{
+    width: 100px;
+    /* border: 1px solid red; */
+}
+
+.donate-item P{
+    text-align: justify;
+    padding: 0px;
+    font-size: 18px;
+    color: #555;
+    font-weight: 500;
+}
+
+
+.flexible-container{
+    padding: 50px;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.flexible-container p{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+}
+
+.half-width{
+    width: 50%;
+    padding: 50px;
+   
+}
+.full-width{
+    width: 50%;
+    padding: 50px;
+    margin-right: 100px;
+}
+.image-width img{
+    width: 75%;
+}
+.image-wrap img{
+    width: 50%;
+    padding-left: 50px;
+}
+.my-buttun{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.my-works-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.my-works-show{
+    width: 300px;
+    /* padding: 0px 0px 20px 0px; */
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.my-works-show p{
+    text-align: justify;
+    font-family: 'Oswald';
+    color: #777;
+    font-size: 16px;
+    padding:0px 20px;
+}
+
+.my-works-show h2{
+    padding-left: 20px;
+    /* color: #ff5200; */
+    font-weight:500;
+    font-family: 'Oswald';
+}
+
+.my-works-show img{
+    width: 300px;
+    border-radius:20px 20px 0px 0px;
+    height: 200px;
+}
+
+
+
+.updates{
+    padding: 30px 0px;
+    padding-bottom: 100px;
+}
+
+.updates p{
+    text-align: center;
+    font-size: 20px;
+    color: #777;
+    padding: 0px 30px;
+}
+.subscribe-here{
+    text-align: center;
+}
+
+.subscribe-here input{
+    border: none;
+    outline: none;
+    padding: 11px;
+    border: 1px solid #ff5200;
+    border-radius: 5px 0px 0px 5px;
+    width: 400px;
+    font-size: 18px;
+}
+
+
+footer{
+    background: #091B27;
+    background-color: #000000f1;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer h2{
+    font-family: 'Oswald';
+    font-weight: 500;
+}
+
+footer P{
+    font-size: 16px;
+    font-family: 'Oswald';
+}
